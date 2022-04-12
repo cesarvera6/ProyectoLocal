@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.content-prin{
+    display: grid;
+    grid-template-columns:  100%;
+}
+.lista{
+    display: flex;
+    flex-direction: row;
+}
+.cont-0{
+    height: 10%;
+}
+.content-prin-2{
+    display: grid;
+    grid-template-columns: 63% 37%;
+}
+.cont-1{
+    height: 90vh;
+    background-color: cadetblue;
+}
+.cont-2{
+    height: 90vh;
+    background-color: darkgray;
+}
