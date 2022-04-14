@@ -2,26 +2,35 @@
     margin: 0px;
     padding: 0px;
 }
-.content-prin{
-    display: grid;
-    grid-template-columns:  100%;
+
+main{
+    height: 100vh;
+    background-color: aquamarine;
 }
-.lista{
+.cabecera{
+    height: 7% ;
+    background-color: cornflowerblue;
+}
+.head-nav{
+    padding: 3px;
+    background-color:;
+}
+.nav-bar{
     display: flex;
-    flex-direction: row;
 }
-.cont-0{
-    height: 10%;
-}
-.content-prin-2{
+.cuerpo {
+    height: 93%;
     display: grid;
-    grid-template-columns: 63% 37%;
+    grid-template-columns: 20% 80%;
 }
-.cont-1{
-    height: 90vh;
-    background-color: cadetblue;
+
+.barra-izqui{
+    background-color: darkgrey;
+    
+
 }
-.cont-2{
-    height: 90vh;
-    background-color: darkgray;
+.barra-dere{
+    
+    background-color: white;
+
 }
