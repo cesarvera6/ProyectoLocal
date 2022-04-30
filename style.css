@@ -5,32 +5,60 @@
 
 main{
     height: 100vh;
-    background-color: aquamarine;
-}
-.cabecera{
-    height: 7% ;
-    background-color: cornflowerblue;
-}
-.head-nav{
-    padding: 3px;
-    background-color:;
-}
-.nav-bar{
-    display: flex;
-}
-.cuerpo {
-    height: 93%;
-    display: grid;
-    grid-template-columns: 20% 80%;
-}
-
-.barra-izqui{
-    background-color: darkgrey;
-    
-
-}
-.barra-dere{
-    
     background-color: white;
+}
 
+header{
+    background-color: black;
+}
+
+nav ul a{
+    color: white;
+}
+
+header > nav {
+    background-color: red;
+}
+
+header + section{
+    background-color: blueviolet;
+}
+header ~ div {
+    color: blue;
+}
+header ~ section{
+    color: white;
+}
+
+section h2 {
+    color: black;
+}
+section h2:hover {
+    color: brown;
+}
+
+section button {
+    padding: 5px;
+    border-radius: 1px;
+}
+section > button:active {
+    background-color: blue;
+    color:  white;
+}
+
+article ul li:nth-child(2){
+    color: blue;
+}
+::placeholder{
+    color: cornflowerblue;
+}
+ p:hover::before{
+    content: "❤😍";
+}
+p:hover::after{
+    content: "🤞💖";
+}
+
+#corazon {
+    background-color: cadetblue;
 }

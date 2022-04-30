@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba 1</title>
+    <script src="https://kit.fontawesome.com/77777ceaeb.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    *{
+        margin:0px;
+    }
+    .contenedor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url("https://editorial.uefa.com/resources/026c-12f705c46a6c-9f2eb0579483-1000/format/wide1/messi_graphic.jpg?imwidth=2048");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .card{
+        height: 300px;
+        width: 280px;
+        border-radius: 20px;
+        background-color: white;
+        overflow: hidden;
+    }
+    .card img{
+        width: 100%;
+    }
+    .card-content{
+        
+        
+        position: relative;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+    .card-top{
+        background-color: cadetblue;
+        height: 40%;
+    }
+    .foto{
+        
+        overflow: hidden;
+        width: 100px;
+        height: 100px;
+        
+        position: absolute;
+        left: 91px;
+        top: 70px;
+        border-radius: 50%;
+        border: 1px solid white;
+    }
+    .body-card{
+        height: 20%;
+        
+    }
+    .followers{
+        height: 42px;
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 2px;
+        text-align: center;
+    }
+    
+    .logo{
+        padding-top: 25px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .lg{
+        padding: 3px;
+        
+    }
+    
+</style>
+<body>
+    <main class="contenedor">
+        <section class="card">
+            <div class="card-content">
+                <div class="card-top">
+                    <img src="" alt="">
+                </div>
+                
+                <div class="foto">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Lionel_Messi_20180626.jpg" alt="">
+                </div>
+                <div class="body-card">
+
+                </div>
+                <div class="followers">
+                    <div>
+                        <h4>Followers </h4>
+                        <span class="emojis"><i class="far fa-user"></i></span>
+                    </div>
+                    <div>
+                        <h4>Likes </h4>
+                        <span class="emojis"><i class="far fa-heart hearth"></i></span>
+                    </div>
+                </div>
+                <div class="logo">
+                    <span class="lg"><i class="fab fa-facebook"></i></span>
+                    <span class="lg"><i class="fab fa-instagram"></i></span>
+                    <span class="lg"><i class="fab fa-twitch"></i></span>
+                    <span class="lg"><i class="fab fa-twitter"></i></span>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
